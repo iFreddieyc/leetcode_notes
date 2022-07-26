@@ -3,6 +3,14 @@
 
 The idea is to use **sliding window**.
 
+Solution 1:
+
+For a window of `n` letters and `k` moves, if the frequency of the most occurred letter inside the window plus `k` is greater or equal to `n`, then the length of the longest repeating character can be `n`. Using this idea, we can solve this problem by keeping a sliding window of [`left`, `right`] while using a dictionary `count` to keep track of letter frequencies in the window.
+
+`max_freq` is used to represent the maximum frequency of any letter in a given window so far. Whenever we move on to a letter, we see if the `max_freq` has changed. If the current window cannot have the longest repeating character, i.e. if the `max_freq + k` is less than the length of the window (`right - left + 1`), then we remove the left most letter from the window and move the left bound of the window.
+
+In the end, the window's length should be `len(s) - left`.
+
 Python solution 1:
 ```
 class Solution:
