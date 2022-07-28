@@ -1,5 +1,4 @@
 # 70. Climbing Stairs
-
 [Link to the problem](https://leetcode.com/problems/climbing-stairs/)
 
 One of the easier apporaches is **dynamic programming**.
