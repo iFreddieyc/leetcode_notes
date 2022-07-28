@@ -14,3 +14,7 @@ Just some notes/solutions of leetcode and other programming problems
 [70. Climbing Stairs](climbing_stairs.md) **[Easy]**
 
 [746. Min Cost Climbing Stairs](min_cost_climbing_stairs.md) **[Easy]**
+
+[198. House Robber](house_robber.md) **Medium**
+
+[213. House Robber II](house_robber_ii.md) **Medium**
