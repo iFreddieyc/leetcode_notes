@@ -18,3 +18,7 @@ Just some notes/solutions of leetcode and other programming problems
 [198. House Robber](src/house_robber.md) **Medium**
 
 [213. House Robber II](src/house_robber_ii.md) **Medium**
+
+### Graph Algorithms
+
+[200. Number of Islands](src/number_of_islands.md) **Medium**
