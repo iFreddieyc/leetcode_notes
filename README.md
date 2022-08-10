@@ -37,4 +37,4 @@ Just some notes/solutions of leetcode and other programming problems
 
 [572. Subtree of Another Tree](src/subtree_of_another_tree.md) **Easy**
 
-[235. Lowest Common Ancestor of a Binary Search Tree](src/lowest_commmon_ancestor_of_a_binary_search_tree.md) **Easy**
+[235. Lowest Common Ancestor of a Binary Search Tree](src/lowest_common_ancestor_of_a_binary_search_tree.md) **Easy**
