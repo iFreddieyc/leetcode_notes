@@ -44,3 +44,7 @@ Just some notes/solutions of leetcode and other programming problems
 ### Divide and Conquer
 
 [53. Maximum Subarray](src/maximum_subarray.md) **Medium**
+
+### String Frequency
+
+[1647. Minimum Deletions to Make Character Frequencies Unique](src/mimimum_deletions_to_make_character_frequencies_unique.md) **Medium**
