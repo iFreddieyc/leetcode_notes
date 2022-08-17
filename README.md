@@ -19,6 +19,8 @@ Just some notes/solutions of leetcode and other programming problems
 
 [213. House Robber II](src/house_robber_ii.md) **Medium**
 
+[53. Maximum Subarray](src/maximum_subarray.md) **Medium**
+
 ### Graph Algorithms
 
 [200. Number of Islands](src/number_of_islands.md) **Medium**
@@ -38,3 +40,7 @@ Just some notes/solutions of leetcode and other programming problems
 [572. Subtree of Another Tree](src/subtree_of_another_tree.md) **Easy**
 
 [235. Lowest Common Ancestor of a Binary Search Tree](src/lowest_common_ancestor_of_a_binary_search_tree.md) **Easy**
+
+### Divide and Conquer
+
+[53. Maximum Subarray](src/maximum_subarray.md) **Medium**
