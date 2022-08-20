@@ -12,3 +12,9 @@
 这道题和上一道题很相似，唯一差别是需要sort。
 5. [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 这道题explore了几种解法，明白了greedy solution但还有其他几种approach没有去看。
+
+## 08-19-2022
+
+1. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+2. [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+这道题不太确定，需要更多时间来理解cash和hold意味着什么，怎么互相转换。
