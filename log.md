@@ -1,25 +1,27 @@
-# 刷题记录
+# Practice Log
 
 ## 08-18-2022
 
 1. [256. Paint House](https://leetcode.com/problems/paint-house/)
-之前没做过，想了十分钟看了[答案](https://leetcode.com/problems/paint-house/discuss/68232/python-clean-and-clear-python-dp-solution)
+Never attempted, looked at [solution](https://leetcode.com/problems/paint-house/discuss/68232/python-clean-and-clear-python-dp-solution) after 10 minutes.
 2. [265. Paint House II](https://leetcode.com/problems/paint-house-ii/)
-看似和上一题没有太大改变，但其实最obvious的解法是O（nk^2)，而不是题目中要求的O(nk)。只写了O(nk^2)的解法，还没有写最佳解。
+Similar to the last problem, but the optimal solution which is O(nk) is not easy to arrive at. Finished O(nk^2) solution but not the optimal one. 
 3. [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
-这道题有几种approach，可以binary search也可以linear search，binary search 实际更快，但理论复杂度都是O(n)。linear search不太容易写错。
+Could use both binary search and linear search for this question. Binary search should be faster in practice, but both upper bound is O(n) because of overhead. Linear search is definitely the harder to mess up approach.
 4. [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-这道题和上一道题很相似，唯一差别是需要sort。
+Similar to last problem, only difference is to use sort.
 5. [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-这道题explore了几种解法，明白了greedy solution但还有其他几种approach没有去看。
+Several approaches to this question, understood greedy solution but didn't check out other approaches yet.
 
 ## 08-19-2022
 
 1. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 2. [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
-这道题不太确定，需要更多时间来理解cash和hold意味着什么，怎么互相转换。
+Not quite sure about this one, need to understand a bit more about `cash` and `hold` and their relationships.
 
 ## 08-24-2022
 
-1.[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)复习一下sliding window这个思路，这道题不是特别简单，重新做一遍despite思路对了，还是有一些思路没有考虑。
-2.
+1.[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+Reviewing this question, despite having the right idea, took a bit long to write error free code. Updated the [markdown file](src/longest_substring_without_repeating_characters.md) with inclusive/exclusive left bound solutions and explanations.
+2.[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+Reviewing this question, have the right idea but forget the meaning of `max_freq` and how to calculate it. Updated the the [markdown file](src/longest_repeating_character_replacement.md) with a further explanation on `max_freq`.
