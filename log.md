@@ -21,7 +21,7 @@ Not quite sure about this one, need to understand a bit more about `cash` and `h
 
 ## 08-24-2022
 
-1.[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+1. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 Reviewing this question, despite having the right idea, took a bit long to write error free code. Updated the [markdown file](src/longest_substring_without_repeating_characters.md) with inclusive/exclusive left bound solutions and explanations.
-2.[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+2. [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 Reviewing this question, have the right idea but forget the meaning of `max_freq` and how to calculate it. Updated the the [markdown file](src/longest_repeating_character_replacement.md) with a further explanation on `max_freq`.
