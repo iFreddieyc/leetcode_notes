@@ -18,3 +18,8 @@
 1. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 2. [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 这道题不太确定，需要更多时间来理解cash和hold意味着什么，怎么互相转换。
+
+## 08-24-2022
+
+1.[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)复习一下sliding window这个思路，这道题不是特别简单，重新做一遍despite思路对了，还是有一些思路没有考虑。
+2.
