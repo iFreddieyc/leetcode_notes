@@ -9,7 +9,7 @@ For a window of `n` letters and `k` moves, if the frequency of the most occurred
 
 `max_freq` is used to represent the maximum frequency of any letter in a given window so far. Whenever we move on to a new letter(`right`), we see if the `max_freq` has changed. Since only the new letter could techinally have a count higher than `max_freq`, we update `max_freq` with `max(max_freq, c[s[right]])`. 
 
-If the current window cannot have the longest repeating character, i.e. if the `max_freq + k` is less than the length of the window (`right - left + 1`), then we remove the left most letter from the window and move the left bound of the window. We never have to worry about `max_freq` being changed due to the removal of the leftmost character of the window, because the window should be valid at every iteration, meaning that we would never expand our window unless `max_freq + k` is more than its length.
+If the current window cannot have the longest repeating character, i.e. if the `max_freq + k` is less than the length of the window (`right - left + 1`), then we remove the left most letter from the window and move the left bound of the window. We never have to worry about `max_freq` being changed due to the removal of the leftmost character of the window, because as long as it doesn't increase, we can never find a larger window; and the only way for it to increase would be if the newest letter has a higher count.
 
 In the end, the window's length should be `len(s) - left`.
 
