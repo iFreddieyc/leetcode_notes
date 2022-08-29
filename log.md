@@ -1,5 +1,23 @@
 # Practice Log
 
+## 08-29-2022
+
+1. [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) Looked at solutions and copied its O(N) DP optimal solution. This problem is really similar to [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/).
+
+## 08-24-2022
+
+1. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+Reviewing this question, despite having the right idea, took a bit long to write error free code. Updated the [markdown file](src/longest_substring_without_repeating_characters.md) with inclusive/exclusive left bound solutions and explanations.
+2. [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+Reviewing this question, have the right idea but forget the meaning of `max_freq` and how to calculate it. Updated the the [markdown file](src/longest_repeating_character_replacement.md) with a further explanation on `max_freq`.
+3. [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) Attempted and finished a O(26n) solution. There was a faster solution at O(n) which is quite easy to understand.
+
+## 08-19-2022
+
+1. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+2. [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+Not quite sure about this one, need to understand a bit more about `cash` and `hold` and their relationships.
+
 ## 08-18-2022
 
 1. [256. Paint House](https://leetcode.com/problems/paint-house/)
@@ -12,21 +30,3 @@ Could use both binary search and linear search for this question. Binary search 
 Similar to last problem, only difference is to use sort.
 5. [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 Several approaches to this question, understood greedy solution but didn't check out other approaches yet.
-
-## 08-19-2022
-
-1. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-2. [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
-Not quite sure about this one, need to understand a bit more about `cash` and `hold` and their relationships.
-
-## 08-24-2022
-
-1. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-Reviewing this question, despite having the right idea, took a bit long to write error free code. Updated the [markdown file](src/longest_substring_without_repeating_characters.md) with inclusive/exclusive left bound solutions and explanations.
-2. [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-Reviewing this question, have the right idea but forget the meaning of `max_freq` and how to calculate it. Updated the the [markdown file](src/longest_repeating_character_replacement.md) with a further explanation on `max_freq`.
-3. [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) Attempted and finished a O(26n) solution. There was a faster solution at O(n) which is quite easy to understand.
-
-## 08-29-2022
-
-1. [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) Looked at solutions and copied its O(N) DP optimal solution. This problem is really similar to [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/).
