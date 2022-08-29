@@ -26,3 +26,7 @@ Reviewing this question, despite having the right idea, took a bit long to write
 2. [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 Reviewing this question, have the right idea but forget the meaning of `max_freq` and how to calculate it. Updated the the [markdown file](src/longest_repeating_character_replacement.md) with a further explanation on `max_freq`.
 3. [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) Attempted and finished a O(26n) solution. There was a faster solution at O(n) which is quite easy to understand.
+
+## 08-29-2022
+
+1. [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) Looked at solutions and copied its O(N) DP optimal solution. This problem is really similar to [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/).
