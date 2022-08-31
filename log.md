@@ -1,5 +1,8 @@
 # Practice Log
 
+## 08-20-2022
+1. [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) Figured out and wrote two-pointer solution, looked at stack solution, didn't understand DP solution.
+
 ## 08-29-2022
 
 1. [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) Looked at solutions and copied its O(N) DP optimal solution. This problem is really similar to [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/).
