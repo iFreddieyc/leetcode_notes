@@ -3,7 +3,7 @@
 ## 08-29-2022
 
 1. [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) Looked at solutions and copied its O(N) DP optimal solution. This problem is really similar to [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/).
-
+2. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) Revisited this question, did good.
 ## 08-24-2022
 
 1. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
