@@ -1,6 +1,11 @@
 # Practice Log
 
-## 08-20-2022
+## 08-31-2022
+1. [79. Word Search](https://leetcode.com/problems/word-search/) Wrote a dfs solution but exceeds time limit for some test cases, looked at and copied  another dfs solution with less time complexity. 
+2. [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) Attempted
+3. [256. Paint House](https://leetcode.com/problems/paint-house/) Revisited
+
+## 08-30-2022
 1. [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) Figured out and wrote two-pointer solution, looked at stack solution, didn't understand DP solution.
 
 ## 08-29-2022
