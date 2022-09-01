@@ -5,7 +5,8 @@
 2. [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) Attempted
 3. [256. Paint House](https://leetcode.com/problems/paint-house/) Revisited
 4. [322. Coin Change](https://leetcode.com/problems/coin-change/) Revisited, couldn't remember the solution. 
-
+5. [1746. Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/) Looked at and implemented O(n) solution.
+6. 
 ## 08-30-2022
 1. [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) Figured out and wrote two-pointer solution, looked at stack solution, didn't understand DP solution.
 
