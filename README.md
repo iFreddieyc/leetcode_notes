@@ -21,6 +21,8 @@ Just some notes/solutions of leetcode and other programming problems
 
 [53. Maximum Subarray](src/maximum_subarray.md) **Medium**
 
+[256. Paint House](src/paint_house.md) **Medium**
+
 ### Graph Algorithms
 
 [200. Number of Islands](src/number_of_islands.md) **Medium**
