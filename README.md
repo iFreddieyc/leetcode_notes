@@ -23,6 +23,8 @@ Just some notes/solutions of leetcode and other programming problems
 
 [256. Paint House](src/paint_house.md) **Medium**
 
+[322. Coin Change](src/coin_change.md) **Medium**
+
 ### Graph Algorithms
 
 [200. Number of Islands](src/number_of_islands.md) **Medium**
