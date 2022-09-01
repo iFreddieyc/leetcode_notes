@@ -6,6 +6,7 @@
 3. [256. Paint House](https://leetcode.com/problems/paint-house/) Revisited
 4. [322. Coin Change](https://leetcode.com/problems/coin-change/) Revisited, couldn't remember the solution. 
 5. [1746. Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/) Looked at and implemented O(n) solution.
+6. [1230. Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/) Looked at and implemented O(n) solution.
 
 ## 08-30-2022
 1. [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) Figured out and wrote two-pointer solution, looked at stack solution, didn't understand DP solution.
@@ -13,7 +14,7 @@
 ## 08-29-2022
 
 1. [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) Looked at solutions and copied its O(N) DP optimal solution. This problem is really similar to [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/).
-2. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) Revisited this question, did good.
+2. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) Revisited this question, did well.
 ## 08-24-2022
 
 1. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
