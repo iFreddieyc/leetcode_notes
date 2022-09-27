@@ -69,3 +69,37 @@ def dfs(self, grid, i, j):
     self.dfs(grid, i, j+1)
     self.dfs(grid, i, j-1)
 ```
+
+## BFS
+
+### Solution 1:
+```
+from collections import deque
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        if not grid:
+            return 0
+        
+        ROWS, COLS = len(grid), len(grid[0])
+        
+        count = 0
+        for r in range(ROWS):
+            for c in range(COLS):
+                if grid[r][c] == '1':
+                    count += 1
+                    neighbors = deque([(r, c)])
+                    while neighbors:
+                        row, col = neighbors.popleft()
+                        if grid[row][col] == '#':
+                            continue
+                        grid[row][col] = '#'
+                        if row - 1 >= 0 and grid[row-1][col] == '1':
+                            neighbors.append((row-1, col))
+                        if col - 1 >= 0 and grid[row][col-1] == '1':
+                            neighbors.append((row, col-1))
+                        if row + 1 < ROWS and grid[row+1][col] == '1':
+                            neighbors.append((row+1, col))
+                        if col + 1 < COLS and grid[row][col+1] == '1':
+                            neighbors.append((row, col+1))
+        return count
+```
